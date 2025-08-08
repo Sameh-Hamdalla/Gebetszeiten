@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  direction: rtl;
+
+  body {
+  font-family: 'Poppins', 'Open Sans', 'Montserrat', sans-serif;
+}
+
+}
+section {
+  background: url(assets/Moschee.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal zentriert */
+  align-items: center;     /* vertikal zentriert */
+  padding: 0;              /* kein extra Platz */
+}
+
+section .container {
+  width: 300px;         /* kleiner machen */
+  padding: 20px 15px;   /* kompakter */
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: 50px;
+
+  font-size: 0.75rem;   /* Text kleiner */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background-color: rgba(0, 0,0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+
+
+ section .top_sec{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  background: rgba(200, 200, 200, 0.2);
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Rechtsbündig */
+  width: 200px;
+}
+
+section .top_sec select {
+  width: 120px;
+  border-radius: 5px;
+  outline: none;
+  background: rgb(219, 164, 63);
+  padding: 2px 10px;
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+}
+h3{
+  font-size: 18px;
+  color: white;
+}
+h4{
+  font-size: 18px;
+  color: white;
+}
+
+section .prayer{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  padding: 2px 10px ;
+  background-color: rgb(219, 164, 63);;
+  margin-bottom: px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #d7d7d7
+}
