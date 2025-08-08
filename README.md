@@ -27,4 +27,13 @@ Die Daten werden von der **[Aladhan API](https://aladhan.com/prayer-times-api)**
 1. **Repository klonen**
    ```bash
    git clone https://github.com/Sameh-Hamdalla/Gebetszeiten.git
+In das Projektverzeichnis wechseln
 
+
+cd Gebetszeiten
+Abhängigkeiten installieren
+
+npm install
+Projekt starten
+
+npm run dev
